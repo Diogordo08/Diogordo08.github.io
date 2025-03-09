@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfólio</a>
+
+        <nav class="navbar">
+            <a href="index.html" style="--i:1;">INICIO</a>
+            <a href="#" style="--i:2;" class="active">HABILIDADES</a>
+            <a href="#" style="--i:3;">CONTATO</a>
+        </nav>
+    </header>
+
+    <section class="habilidades">
+        <div class="habilidades-content">
+            <h3>Linguagens:</h3>
+            <div class="list">
+                <ul>
+                    <li style="--i:1;" onmouseover="changeText(this)" onmouseleave="goBack()" data-value="0">C/C++</li>
+                    <li style="--i:2;" onmouseover="changeText(this)" onmouseleave="goBack()" data-value="1">C#</li>
+                    <li style="--i:3;" onmouseover="changeText(this)" onmouseleave="goBack()" data-value="2">Java</li>
+                    <li style="--i:4;" onmouseover="changeText(this)" onmouseleave="goBack()" data-value="3">GMS (Game Maker Studio)</li>
+                    <li style="--i:5;" onmouseover="changeText(this)" onmouseleave="goBack()" data-value="4">Arduino IDE (C++)</li>
+                    <li style="--i:6;" onmouseover="changeText(this)" onmouseleave="goBack()" data-value="5">HTML5</li>
+                    <li style="--i:7;" onmouseover="changeText(this)" onmouseleave="goBack()" data-value="6">CSS3</li>
+                    <li style="--i:8;" onmouseover="changeText(this)" onmouseleave="goBack()" data-value="7">JavaScript</li>
+                    <li style="--i:10;" onmouseover="changeText(this)" onmouseleave="goBack()" data-value="8">PHP</li>
+                </ul>
+            </div>
+            <p>Tambem sou fluente em <span onmouseover="changeText(this)" onmouseleave="goBack()" data-value="9">inglês</span> e tenho conhecimento de <span onmouseover="changeText(this)" onmouseleave="goBack()" data-value="10">informatica</span>, sei: formatar, montar, desmontar, fazer manutenção e instalar outros SO&#39;s</p>
+        </div>
+        <div class="desc">
+            <h2 id="desc-name"></h2>
+            <p id="desc-text">
+                Aqui vai aparecer minha historia com essa linguagem, se desenvolvi projetos e a quanto tempo estudo/trabalho com ela.
+            </p>
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
