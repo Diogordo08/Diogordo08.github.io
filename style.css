@@ -267,6 +267,11 @@ body{
     text-shadow: 0 0 10px #cc30ff;
 }
 
+.habilidades-content .content-tip{
+    color: #a205d6;
+    font-weight: 600;
+}
+
 .desc p{
     max-width: 450px;
     margin-right: -20px;
@@ -291,7 +296,7 @@ body{
 .list ul{
     display: flex;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .list li {

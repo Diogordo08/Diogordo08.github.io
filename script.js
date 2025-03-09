@@ -1,7 +1,7 @@
 let typed = new Typed(".multiple-text", {
     strings: ["Desenvolvedor front-end", "Desenvolvedor back-end", "Desenvolvedor java", "Programador Arduino"],
     typeSpeed: 100,
-    backSpeed: 100,
+    backSpeed: 50,
     backDelay: 1000,
     loop: true
 });
