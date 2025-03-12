@@ -20,7 +20,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: rgba(31, 36, 45, 0.25);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -212,7 +212,7 @@ body{
 }
 
 #tooltip {
-    position: absolute;
+    position: fixed;
     background: #1f242d;
     color: #cc30ff;
     padding: 10px;

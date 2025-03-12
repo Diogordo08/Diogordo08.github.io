@@ -55,26 +55,3 @@ function goBack(){
     document.getElementById("desc-text").innerText = text;
     document.getElementById("desc-name").innerText = name;
 }
-
-function showTooltip(event, text){
-    let tooltip = document.getElementById("tooltip");
-    tooltip.innerText = text;  // Define o texto da tooltip
-    tooltip.style.display = "block";
-
-    // Atualiza a posição conforme o mouse se move
-    document.addEventListener("mousemove", moveTooltip);
-}
-
-function moveTooltip(event) {
-    let tooltip = document.getElementById("tooltip");
-    tooltip.style.left = event.pageX + 10 + "px";
-    tooltip.style.top = event.clientY - 40 + "px";
-}
-
-function hideTooltip() {
-    let tooltip = document.getElementById("tooltip");
-    tooltip.style.display = "none";
-
-    // Remove o listener para evitar sobrecarga de eventos
-    document.removeEventListener("mousemove", moveTooltip);
-}
