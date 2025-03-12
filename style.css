@@ -242,7 +242,7 @@ body{
     margin: 20px;
     font-size: 20px;
     list-style: square;
-    color: #cc30ff;
+    color: #fff;
     opacity: 0;
     animation: zoomIn .7s ease forwards ;
     animation-delay: calc(.2s * var(--i));
@@ -262,6 +262,7 @@ body{
 }
 
 .contato-content a:hover{
+    color: #cc30ff;
     font-size: 25px;
 }
 
