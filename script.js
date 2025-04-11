@@ -47,7 +47,7 @@ function changeText(element) {
         "A linguagem de programação JS foi uma linguagem que tambem estudei de forma EAD, em diversos cursos e sites, mas principalmente pelo Curso em Video e W3S, meu projeto mais recente utilizando desta linguagem tambem é este portfólio apresentado.",
         
         // NodeJS 
-        "Node JS foi uma biblioteca que decidi começar a estudar depois de analisar o mercado e perceber que é muito utilizada hoje, estudei e sigo pesquisando por conta própria. Porem ainda tenho pouco dominio sobre esta",
+        "Node JS foi um framework que decidi começar a estudar depois de analisar o mercado e perceber que é muito utilizada hoje, estudei e sigo pesquisando por conta própria. Porem ainda tenho pouco dominio sobre esta",
         
         // PHP 
         "PHP foi uma linguagem que estudei no meu 2º e 3º ano na ETEC e que continuo utilizando até hoje, meu ultimo projeto utilizando esta linguagem foi uma chamada digital para a equipe de jiu-jitsu a qual faço parte.",
