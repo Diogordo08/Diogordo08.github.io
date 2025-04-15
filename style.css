@@ -27,6 +27,18 @@ body{
     z-index: 100;
 }
 
+.flags{
+    position: absolute;
+    left: 10px;
+    padding: 5px;
+    animation: slideTop .7s ease forwards ;
+}
+
+.flags:nth-child(1){
+    left: 40px;
+    animation: slideBottom .7s ease forwards ;
+}
+
 .logo{
     font-size: 25px;
     color: #fff;

@@ -1,5 +1,5 @@
 let typed = new Typed(".multiple-text", {
-    strings: ["Desenvolvedor front-end", "Desenvolvedor back-end", "Desenvolvedor java", "Programador Arduino"],
+    strings: ["Desenvolvedor front-end", "Desenvolvedor back-end", "Desenvolvedor python", "Programador Arduino"],
     typeSpeed: 100,
     backSpeed: 50,
     backDelay: 1000,
@@ -26,7 +26,7 @@ function changeText(element) {
         "Python me chamou atenção enquanto ainda fazia curso tecnico na etec, decidi então estudar por conta própria, fiz um curso EAD da pagina Curso em Video e segui pesquisando e aprendendo sozinho. Meu ultimo projeto foi um app de conversão de videos do youtube usando as bibliotecas CustomTkinter e yt-dlp.",
         
         // Java 
-        "A linguagem Java foi uma linguagem que decidi estudar após notar o seu grande espaço no mercado, fiz um curso EAD da pagina Curso em Video, utilizando da IDE: 'Apache NetBeans'. Porem ainda tenho pouco dominio sobre esta.",
+        "A linguagem Java foi uma linguagem que decidi estudar após notar o seu grande espaço no mercado, fiz um curso EAD da pagina Curso em Video, utilizando da IDE: 'IntelliJ IDEA community'. Porem ainda tenho pouco dominio sobre esta.",
         
         // GMS 
         "A linguagem GMS foi uma linguagem a qual eu aprendi sozinho e tambem, onde eu desenvolvi meu TCC para formatura na ETEC, o projeto desenvolvido por mim e pelo meu grupo de 2 amigos, foi um game de incentivo popular e concientização sobre a reciclagem de lixo.",
