@@ -371,6 +371,107 @@ body{
     text-shadow: 0 0 10px #cc30ff;
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+    .header{
+        padding: 30px 5%;
+    }
+
+    .navbar a{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .navbar a:hover,
+    .navbar a.active{
+        font-size: 15px;
+    }
+
+    .flags{
+        top: 0px;
+    }
+
+    .home{
+        padding: 70px 5% 0;
+    }
+
+    .home-content h1{
+        font-size: 20px;
+    }
+
+    .home-content h3{
+        font-size: 20px;
+    }
+
+    .home-content .btn{
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+
+    .home-img img{
+        max-width: 250px;
+    }
+
+    .multiple-text{
+        font-size: 15px;
+    }
+
+    .multiple-text::before{
+        content: "\A";
+        white-space: pre;
+    }
+
+    .social-media a{
+        width: 20px;
+        height: 20px;
+        margin: 0px 5px 15px 0px;
+    }
+
+    .about-img img{
+        max-width: 150px;
+    }
+
+    .about h2{
+        font-size: 15px;
+    }
+
+    .about li{
+        font-size: 10px;
+    }
+
+    .about p{
+        font-size: 10px;
+    }
+
+    .contato-content h3{
+        font-size: 20px;
+    }
+
+    .contato-content li{
+        font-size: 15px;
+    }
+
+    .habilidades-content h3{
+        font-size: 20px;
+    }
+
+    .habilidades-content p{
+        font-size: 12px;
+    }
+
+    .list li{
+        font-size: 15px;
+    }
+
+    .desc h2{
+        font-size: 15px;
+    }
+
+    .desc p{
+        font-size: 10px;
+    }
+}
+
 
 /* KEYBASE ANIMATION */
 @keyframes slideRight{
